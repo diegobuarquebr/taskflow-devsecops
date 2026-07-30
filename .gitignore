@@ -1,0 +1,4 @@
+# Ignorar arquivos de senhas e ambiente
+.env/
+.venv/
+venv/
