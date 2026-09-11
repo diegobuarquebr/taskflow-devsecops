@@ -68,3 +68,6 @@ jobs:
           # necessidade de licença. GITHUB_TOKEN já é fornecido
           # automaticamente pelo GitHub Actions.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Força o gitleaks a rodar o comando 'detect' em todo o histórico coletado
+          args: detect --verbose
