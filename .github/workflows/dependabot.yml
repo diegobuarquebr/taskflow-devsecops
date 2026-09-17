@@ -25,10 +25,6 @@
 
 version: 2
 
-name: Dependabot
-
-  workflow_dispatch:
-
 updates:
   # Ecossistema Python (pip) - cobre o requirements.txt do app-exemplo.
   - package-ecosystem: "pip"
